@@ -10,7 +10,7 @@
 
 ### Purpose
 
-Test fixture for validating WebbOmics data loading and spatial analysis pipelines.
+Test fixture for validating ScoreVis data loading and spatial analysis pipelines.
 
 ### Structure
 

@@ -3332,7 +3332,7 @@ wheels = [
 ]
 
 [[package]]
-name = "webbomics"
+name = "scorevis"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
