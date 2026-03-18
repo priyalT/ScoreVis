@@ -2,7 +2,8 @@ from pathlib import Path
 
 import anndata
 import numpy as np
-from data_models import ValidationResult
+
+from scorevis.data_models import ValidationResult
 
 
 class SpatialDataLoader:
