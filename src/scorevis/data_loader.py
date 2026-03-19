@@ -48,7 +48,7 @@ class SpatialDataLoader:
 
         coordinates = self.adata.obsm["spatial"]
 
-        if np.issubdtype(coordinates.dtype, np.number):
+        if not np.issubdtype(coordinates.dtype, np.number):
             raise ValueError("Spatial coordinates must be numeric.")
         if np.any(coordinates < 0):
             raise ValueError("Spatial coordinates must be non-negative.")
