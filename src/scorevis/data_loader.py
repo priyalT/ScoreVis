@@ -20,7 +20,6 @@ class SpatialDataLoader:
     def validate_spatial_data(self) -> ValidationResult:
         if self.adata is None:
             raise RuntimeError("Call load_h5ad() before validating.")
-
         errors = []
         warnings: list[str] = []
 
